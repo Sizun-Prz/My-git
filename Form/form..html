@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Resgistration Form</h1>
+    <form action="submit">
+        <label for="name">Name:</label> 
+        <input type="text" id="name" placeholder="enter name"></label><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="enter email"><br><br>
+        <label>Password:</label>
+        <input type="password" placeholder="enter password"><br><br>
+        <label> Date of birth</label>
+        <input type="date"><br><br>
+        <label> Form:</label><br>
+        <textarea placeholder ="enter your comment" rows= "10" cols="20"></textarea><br><br>
+       
+        <!--radiobox-->       
+        <h1>What is your gender?</h1>
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female">
+        <label for="others">others</label>
+        <input type="radio" name="gender" id="others"><br><br>
+
+        <!--Checkbox-->
+        <label for="Do you like this form?">Do you like this?</label>
+        <input type="checkbox" id="Do you like this form?"><br><br>
+        <input type="checkbox" value="">Do you like the presentation?<br><br>
+        <input type="checkbox" value="Do you find this easy?">Do you find this easy?<br><br>
+
+        <!--Buttons-->
+        <button>Login</button>
+        <button>Register</button><br><br>
+
+        <!--Dropdown-->
+        <label>Select Courses</label><br>
+        <select name="Courses">
+            <option value="0" disabled selected>Choose any one course</option>
+            <option value="BCA">BCA</option>
+            <option value="CSIT">CSIT</option>
+            <option value="BIT">BIT</option>
+            <option value="BBA">BBA</option>
+            <option value="CA">CA</option>
+        </select>
+    </form>
+</body>
+</html>
